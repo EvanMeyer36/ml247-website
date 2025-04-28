@@ -1,26 +1,34 @@
----
-# ✅ What you should do:
-- Save this as a **`README.md`** file in your project folder.
-- Push it to GitHub when you make your first commit.
-- Update the **repo link** (`YOUR-USERNAME/mindful-living-site`) to match your real GitHub repository URL.
----
+# Mindful Living 24/7 Website
 
-# ✨ After that:
-
-You and your friend can:
-
-- **Clone and pull** changes easily
-- **Push updates** like new pages, animations, features
-- Collaborate just like real-world teams 🔥
+A responsive wellness-focused website project built with **Vue 3**, **Vite**, and **TailwindCSS**.
 
 ---
 
-# 🎯 Bonus:
+## 🚀 Features
 
-Want me to also show you:
+- Responsive design (desktop, tablet, mobile)
+- Light / Dark Mode toggle
+- Mobile-friendly hamburger menu with dropdown
+- Clean, modern TailwindCSS styling
+- Built using Vue 3 Composition API
+- Smooth transitions between themes
+- Mobile-first layout with scaling text and grid adjustments
 
-- How to **setup branch protection** (so no one accidentally breaks the main branch)?
-- How to **set up Vercel or Netlify free hosting** so you can **share a live link** while working on it?
+---
 
-Both are super quick if you want! 🚀  
-Would you want to set up a live demo site too? 🎯
+## 🛠 Tech Stack
+
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+
+---
+
+## 📦 Project Setup
+
+Clone the repo:
+
+```
+git clone https://github.com/EvanMeyer36/ml247-website.git
+cd mindful-living-site
+```
