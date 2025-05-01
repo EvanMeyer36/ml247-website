@@ -13,9 +13,9 @@
 
       <!-- Desktop Navigation -->
       <ul class="hidden md:flex gap-6 items-center">
-        <li><a href="#" class="hover:underline">Schedule Appointment</a></li>
+        <li><a href="https://book.squareup.com/appointments/81b309e1-0e89-4add-b324-e53616b1119e/location/LQGRPWBVS3DEP" class="hover:underline">Schedule Appointment</a></li>
         <li><a href="#" class="hover:underline">About</a></li>
-        <li><a href="#" class="hover:underline">Store</a></li>
+        <li><a href="https://ml247.square.site/home" class="hover:underline">Store</a></li>
         <li><a href="#" class="hover:underline">Services</a></li>
         <li><a href="#" class="hover:underline">Reviews</a></li>
         <li><a href="#" class="hover:underline">Blog</a></li>
