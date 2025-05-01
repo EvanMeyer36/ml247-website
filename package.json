@@ -2,5 +2,24 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "tailwindcss": "^4.1.4"
-  }
+  },
+  "name": "ml247-website",
+  "description": "A responsive wellness-focused website project built with **Vue 3**, **Vite**, and **TailwindCSS**.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanMeyer36/ml247-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvanMeyer36/ml247-website/issues"
+  },
+  "homepage": "https://github.com/EvanMeyer36/ml247-website#readme"
 }

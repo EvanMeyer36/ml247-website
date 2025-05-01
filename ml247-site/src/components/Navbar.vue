@@ -13,10 +13,15 @@
 
             <!-- Desktop Navigation -->
             <ul class="hidden md:flex gap-6 items-center">
+                <li><a href="#" class="hover:underline">Schedule Appointment</a></li>
                 <li><a href="#" class="hover:underline">About</a></li>
+                <li><a href="#" class="hover:underline">Store</a></li>
                 <li><a href="#" class="hover:underline">Services</a></li>
                 <li><a href="#" class="hover:underline">Reviews</a></li>
                 <li><a href="#" class="hover:underline">Blog</a></li>
+                <li><a href="#" class="hover:underline">Directions</a></li>
+
+                <!-- Dark Mode Toggle Button -->
             </ul>
         </div>
 
@@ -27,10 +32,6 @@
             <a href="#" class="hover:underline">Services</a>
             <a href="#" class="hover:underline">Reviews</a>
             <a href="#" class="hover:underline">Blog</a>
-            <button @click="toggleDarkMode"
-                class="px-4 py-2 rounded bg-primary text-white hover:bg-secondary transition-colors duration-300">
-                Toggle {{ darkMode ? 'Light' : 'Dark' }} Mode
-            </button>
         </div>
     </nav>
 </template>
@@ -44,5 +45,4 @@ const darkMode = ref(false)
 const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value
 }
-
 </script>

@@ -1,20 +1,17 @@
 <template>
-  <div class="h-screen bg-gray-100">
+  <div id="app">
     <Navbar />
-    <main class="">
-      <Home />
-    </main>
+    <router-view />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
-import Home from './components/Home.vue';
+
 export default {
   name: 'App',
   components: {
     Navbar,
-    Home,
   },
 };
 </script>
