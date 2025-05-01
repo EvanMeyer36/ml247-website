@@ -36,5 +36,6 @@ cd ml247-site
 Run install and boot with dev
 ```
 npm install
+npm install tailwindcss @tailwindcss/vite
 npm run dev
 ```
