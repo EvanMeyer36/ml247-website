@@ -17,14 +17,6 @@
                 <li><a href="#" class="hover:underline">Services</a></li>
                 <li><a href="#" class="hover:underline">Reviews</a></li>
                 <li><a href="#" class="hover:underline">Blog</a></li>
-
-                <!-- Dark Mode Toggle Button -->
-                <li>
-                    <button @click="toggleDarkMode"
-                        class="px-4 py-2 rounded bg-primary text-white hover:bg-secondary transition-colors duration-300">
-                        Toggle {{ darkMode ? 'Light' : 'Dark' }} Mode
-                    </button>
-                </li>
             </ul>
         </div>
 
@@ -53,12 +45,4 @@ const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value
 }
 
-const toggleDarkMode = () => {
-    darkMode.value = !darkMode.value
-    if (darkMode.value) {
-        document.documentElement.classList.add('dark')
-    } else {
-        document.documentElement.classList.remove('dark')
-    }
-}
 </script>

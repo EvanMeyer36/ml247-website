@@ -30,5 +30,11 @@ Clone the repo:
 
 ```
 git clone https://github.com/EvanMeyer36/ml247-website.git
-cd mindful-living-site
+cd ml247-site
+```
+
+Run install and boot with dev
+```
+npm install
+npm run dev
 ```
