@@ -30,12 +30,21 @@ Clone the repo:
 
 ```
 git clone https://github.com/EvanMeyer36/ml247-website.git
-cd ml247-site
+
 ```
 
-Run install and boot with dev
+Frontend
 ```
+cd ml247-site
 npm install
 npm install tailwindcss @tailwindcss/vite
+npm install @tiptap/vue-3 @tiptap/starter-kit
+npm install @tiptap/extension-link @tiptap/extension-image
+npm run dev
+```
+Backend
+```
+cd ml247-backend
+npm install
 npm run dev
 ```

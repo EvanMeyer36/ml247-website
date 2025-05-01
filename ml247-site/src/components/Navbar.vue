@@ -18,7 +18,7 @@
         <li><a href="https://ml247.square.site/home" class="hover:underline">Store</a></li>
         <li><a href="#" class="hover:underline">Services</a></li>
         <li><a href="#" class="hover:underline">Reviews</a></li>
-        <li><a href="#" class="hover:underline">Blog</a></li>
+        <router-link to="/blog" class="hover:underline">Blog</router-link>
         <li><a href="#" class="hover:underline">Directions</a></li>
         <li><router-link to="/admin" class="hover:underline">Admin Login</router-link></li>
         <li><router-link to="/admin-dashboard" class="hover:underline">Admin Dashboard</router-link></li>
@@ -33,7 +33,7 @@
       <a href="#" class="hover:underline">About</a>
       <a href="#" class="hover:underline">Services</a>
       <a href="#" class="hover:underline">Reviews</a>
-      <a href="#" class="hover:underline">Blog</a>
+      <router-link to="/blog" class="hover:underline">Blog</router-link>
       <router-link to="/admin" class="hover:underline">Admin Login</router-link>
       <router-link to="/admin-dashboard" class="hover:underline">Dashboard</router-link>
     </div>

@@ -4,6 +4,8 @@ import AdminLogin from '../views/AdminLogin.vue';
 import AdminDashboard from '../views/AdminDashboard.vue';
 import AdminPost from '../views/AdminPost.vue';
 import PhotoUpload from '../views/PhotoUpload.vue';
+import Blog from '../views/Blog.vue'
+import BlogPost from '../views/BlogPost.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -25,6 +27,11 @@ const routes = [
     name: 'PhotoUpload',
     component: PhotoUpload,
     meta: { requiresAuth: true }
+  },
+  { path: '/blog/:id', name: 'BlogPost', component: BlogPost },
+  { path: '/blog', 
+    name: 'Blog', 
+    component: Blog 
   }
 ];
 
