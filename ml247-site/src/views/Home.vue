@@ -109,7 +109,7 @@ export default {
     }
   },
   created() {
-    axios.get('http://192.168.88.205:5000/api/reviews')
+    axios.get('https://ml247-website-frontend.onrender.com:5000/api/reviews')
       .then(res => {
         this.reviews = res.data;
       })

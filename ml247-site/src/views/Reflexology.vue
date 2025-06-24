@@ -11,7 +11,7 @@
         <button class="bg-green-400 hover:bg-green-600 text-white px-6 py-3 rounded-md">Book a Reflexology Session</button>
       </div>
       <div class="mt-8 md:mt-0">
-        <img src="../assets/reflexology.jpg" alt="Reflexology Therapy" class="w-64 h-64 object-contain rounded-lg">
+        
       </div>
     </section>
 

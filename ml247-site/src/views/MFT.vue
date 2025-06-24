@@ -18,7 +18,7 @@
 </a>
       </div>
       <div class="mt-8 md:mt-0">
-        <img src="../assets/mft.jpg" alt="Morphogenic Field Technique" class="w-64 h-64 object-contain rounded-lg">
+        
       </div>
     </section>
 
