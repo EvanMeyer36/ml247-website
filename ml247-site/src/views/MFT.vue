@@ -33,7 +33,7 @@
     <!-- What Makes MFT Different -->
     <section class="bg-white rounded-lg shadow p-8 mb-16">
       <h2 class="text-2xl md:text-4xl font-bold text-gray-700 mb-4 text-center">What Makes MFT Different?</h2>
-      <ul class="list-disc list-inside text-gray-500 max-w-3xl mx-auto space-y-2">
+      <ul class="list-disc list-inside text-gray-500 mx-auto text-center p-6">
         <li><strong>Highly Personalized:</strong> Your MFT protocol is based entirely on your body’s current energetic needs. No guesswork. No one-size-fits-all.</li>
         <li><strong>Whole Food Nutrition:</strong> Recommendations focus on real food-based supplements that support your body on a cellular level.</li>
         <li><strong>Energy Field Expansion = Progress:</strong> As your health improves, your energy field expands—a measurable sign of healing.</li>
@@ -42,10 +42,9 @@
     </section>
 
     <!-- Who Can Benefit -->
-    <section>
-      <h2 class="text-2xl md:text-4xl font-bold text-center text-gray-700 mb-8">Who Can Benefit?</h2>
-      <div class="bg-white rounded-lg shadow p-6 max-w-3xl mx-auto">
-        <ul class="list-disc list-inside text-gray-500 space-y-1">
+    <section class="bg-white rounded-lg shadow p-8 mb-16">
+      <h2 class="text-2xl md:text-4xl font-bold text-center text-gray-700 mb-8 ">What Can Benefit?</h2>
+        <ul class="list-disc list-inside text-gray-500 mx-auto text-center p-6">
           <li>Chronic fatigue</li>
           <li>Digestive complaints</li>
           <li>Hormonal imbalance</li>
@@ -54,13 +53,12 @@
           <li>Skin or immune concerns</li>
           <li>Unknown or unresolved health challenges</li>
         </ul>
-      </div>
     </section>
 
     <!-- What to Expect -->
     <section class="bg-white rounded-lg shadow p-8 mb-16">
-      <h2 class="text-2xl md:text-4xl font-bold text-gray-700 mb-4">What to Expect</h2>
-      <ul class="list-disc list-inside text-gray-500 space-y-2">
+      <h2 class="text-2xl md:text-4xl font-bold text-center text-gray-700 mb-8">What to Expect</h2>
+      <ul class="list-disc list-inside text-gray-500 mx-auto text-center p-6">
         <li>Muscle response testing to identify weak or stressed systems.</li>
         <li>Energy field tested against whole food supplements, herbs, and homeopathy options.</li>
         <li>A customized plan designed to strengthen and balance your M-Field.</li>
@@ -80,7 +78,11 @@
 
     <!-- Call to Action -->
     <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <button class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow">Schedule MFT</button>
+      <a 
+  href="https://book.squareup.com/appointments/81b309e1-0e89-4add-b324-e53616b1119e/location/LQGRPWBVS3DEP/services/KP6AYCQND65V3JYWF3KHQJ5U"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="bg-green-400 hover:bg-green-600 text-white px-6 py-3 rounded-md inline-block text-center"></a>
       <button class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow">Contact for Discovery Call</button>
     </section>
 
