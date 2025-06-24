@@ -4,8 +4,9 @@ import AdminLogin from '../views/AdminLogin.vue';
 import AdminDashboard from '../views/AdminDashboard.vue';
 import AdminPost from '../views/AdminPost.vue';
 import PhotoUpload from '../views/PhotoUpload.vue';
-import Blog from '../views/Blog.vue'
+import Blog from '../views/Blog.vue';
 import BlogPost from '../views/BlogPost.vue';
+import Review from '../views/Review.vue';  // 👈 Import your new Review view
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -29,10 +30,10 @@ const routes = [
     meta: { requiresAuth: true }
   },
   { path: '/blog/:id', name: 'BlogPost', component: BlogPost },
-  { path: '/blog', 
-    name: 'Blog', 
-    component: Blog 
-  }
+  { path: '/blog', name: 'Blog', component: Blog },
+
+  // 👇 New Reviews route
+  { path: '/reviews', name: 'Review', component: Review }
 ];
 
 const router = createRouter({

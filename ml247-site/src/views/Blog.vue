@@ -30,7 +30,7 @@
   const posts = ref([]);
   
   onMounted(async () => {
-    const res = await axios.get('http://localhost:5000/api/posts');
+    const res = await axios.get('http://192.168.88.205:5000/api/posts');
     posts.value = res.data;
   });
   
