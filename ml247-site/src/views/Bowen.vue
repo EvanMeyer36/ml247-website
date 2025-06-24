@@ -8,7 +8,14 @@
           Bowen Therapy is a gentle yet powerful approach that can support a wide range of conditions across the body. Whether you’re dealing with acute or chronic issues, recovering from injury or surgery, or looking for holistic support, Bowen may help improve mobility, reduce pain, and enhance overall well-being.
           This holistic technique taps into your body’s natural ability to heal itself by targeting tension patterns and promoting deep relaxation.
         </p>
-        <button class="bg-green-400 hover:bg-green-600 text-white px-6 py-3 rounded-md">Book Your Session</button>
+  <a 
+    href="https://book.squareup.com/appointments/81b309e1-0e89-4add-b324-e53616b1119e/location/LQGRPWBVS3DEP/services/UKMKP3XCPYUWRHGDHCUOANSJ"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow inline-block text-center"
+  >
+     Book a Bowen Appointment
+  </a>
       </div>
       <div class="mt-8 md:mt-0">
         
@@ -83,9 +90,22 @@
 
     <!-- Call to Action -->
     <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <button class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow">Schedule Bowen Therapy</button>
-      <button class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow">Contact for Discovery Call</button>
-    </section>
+  <a 
+    href="https://book.squareup.com/appointments/81b309e1-0e89-4add-b324-e53616b1119e/location/LQGRPWBVS3DEP/services/UKMKP3XCPYUWRHGDHCUOANSJ"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow inline-block text-center"
+  >
+    Book a Bowen Appointment
+  </a>
+
+  <a 
+    href="tel:7343233881"
+    class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow inline-block text-center"
+  >
+    Contact for Discovery Call (734-323-3881)
+  </a>
+</section>
 
     <!-- Policy -->
     <section class="bg-white rounded-lg shadow p-8 text-center mt-16">

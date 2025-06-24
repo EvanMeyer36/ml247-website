@@ -77,14 +77,23 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <a 
-  href="https://book.squareup.com/appointments/81b309e1-0e89-4add-b324-e53616b1119e/location/LQGRPWBVS3DEP/services/KP6AYCQND65V3JYWF3KHQJ5U"
-  target="_blank"
-  rel="noopener noreferrer"
-  class="bg-green-400 hover:bg-green-600 text-white px-6 py-3 rounded-md inline-block text-center"></a>
-      <button class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow">Contact for Discovery Call</button>
-    </section>
+   <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+  <a 
+    href="https://book.squareup.com/appointments/81b309e1-0e89-4add-b324-e53616b1119e/location/LQGRPWBVS3DEP/services/KP6AYCQND65V3JYWF3KHQJ5U"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow inline-block text-center"
+  >
+    Book a MFT Appointment
+  </a>
+
+  <a 
+    href="tel:7343233881"
+    class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow inline-block text-center"
+  >
+    Contact for Discovery Call (734-323-3881)
+  </a>
+</section>
 
     <!-- Policy -->
     <section class="bg-white rounded-lg shadow p-8 text-center mt-16">
