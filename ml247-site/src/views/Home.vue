@@ -25,6 +25,39 @@
       <div class="bg-white rounded-lg shadow p-8 flex items-center justify-center min-h-[200px] w-full max-w-[250px] mx-auto">Picture</div>
       <div class="bg-white rounded-lg shadow p-8 flex items-center justify-center min-h-[200px] w-full max-w-[250px] mx-auto">Picture</div>
     </section>
+        <section class="bg-white rounded-lg shadow p-8 text-center mb-16">
+      <h2 class="text-2xl md:text-4xl font-bold text-gray-700">Learn More About Our Services</h2>
+        </section>
+    
+        <section class="grid grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-16 mb-16">
+          <router-link 
+            to="/MFT" 
+            class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow text-center inline-block"
+          >
+            MFT
+          </router-link>
+
+          <router-link 
+            to="/cranio" 
+            class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow text-center inline-block"
+          >
+            Craniosacral Therapy
+          </router-link>
+
+          <router-link 
+            to="/reflexology" 
+            class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow text-center inline-block"
+          >
+            Reflexology
+          </router-link>
+
+          <router-link 
+            to="/bowen" 
+            class="bg-green-400 hover:bg-green-600 text-white py-6 rounded-lg shadow text-center inline-block"
+          >
+            Bowen Therapy
+          </router-link>
+        </section>
 
     <!-- Mission Statement -->
     <section class="bg-white rounded-lg shadow p-8 text-center mb-16">

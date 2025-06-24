@@ -7,6 +7,10 @@ import PhotoUpload from '../views/PhotoUpload.vue';
 import Blog from '../views/Blog.vue';
 import BlogPost from '../views/BlogPost.vue';
 import Review from '../views/Review.vue';  // 👈 Import your new Review view
+import Bowen from '@/views/Bowen.vue';
+import Reflexology from '@/views/Reflexology.vue';
+import Cranio from '@/views/Cranio.vue';
+import MFT from '@/views/MFT.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -33,7 +37,11 @@ const routes = [
   { path: '/blog', name: 'Blog', component: Blog },
 
   // 👇 New Reviews route
-  { path: '/reviews', name: 'Review', component: Review }
+  { path: '/reviews', name: 'Review', component: Review },
+  { path: '/bowen', name: 'Bowen', component: Bowen },
+  { path: '/reflexology', name: 'Reflexology', component: Reflexology },
+  { path: '/cranio', name: 'Cranio', component: Cranio },
+  { path: '/MFT', name: 'MFT', component: MFT}
 ];
 
 const router = createRouter({
